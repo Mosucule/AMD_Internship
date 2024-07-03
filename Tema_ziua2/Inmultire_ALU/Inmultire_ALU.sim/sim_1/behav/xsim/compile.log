@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_ziua2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/Users/Silviu/AMD_Internship/ALU_ziua2/ALU.v:37]
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/Users/Silviu/AMD_Internship/ALU_ziua2/ALU.v:42]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/Tema_ziua2/Inmultire_ALU/Inmultire_ALU.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
