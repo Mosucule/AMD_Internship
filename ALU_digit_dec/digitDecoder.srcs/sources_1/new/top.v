@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module digit(clk, din, bt1, bt2, bt3, bt4, A1, A2, A3, A4, a, b, c, d, e, f, g);
+module top(clk, din, bt1, bt2, bt3, bt4, A1, A2, A3, A4, a, b, c, d, e, f, g);
     input clk, bt1, bt2, bt3, bt4;
     input [11:0] din;
     output A1, A2, A3, A4, a, b, c, d, e, f, g;
@@ -33,6 +33,7 @@ module digit(clk, din, bt1, bt2, bt3, bt4, A1, A2, A3, A4, a, b, c, d, e, f, g);
     
     wire [15:0] dig_in;
     
+    wire [1:0] sel_num;
     
     and a1(reg1_sel, bt1, bt4);
     and a2(reg2_sel, bt2, bt4);
@@ -45,4 +46,10 @@ module digit(clk, din, bt1, bt2, bt3, bt4, A1, A2, A3, A4, a, b, c, d, e, f, g);
     ALU #(12) ALU1(.A(regA_out), .B(regB_out), .Op(regOp_out), .O(ALU_out), .OF_UND(OF_out), .ERR(ERR_out), .ZERO(Z_out));
     
     dec_err dec_err1(.Z(Z_out), .OF(OF_out), .E(ERR_out), .derr(dig_in[15:12]));
+    
+    dec_sel dec_sel1(.bt0(bt1), .bt1(bt2), .bt2(bt3), .out(sel_num));
+    
+    mux12_4 mux2(.sel(sel_num), .I0(ALU_out), .I1(regA_out), .I2(regB_out), .I3({8'b0, regOp_out}), .dout(dig_in[11:0]));
+    
+    digit digit1(.clk(clk), .din(dig_in), .A1(A1), .A2(A2), .A3(A3), .A4(A4), .a(a), .b(b), .c(c), .d(d), .e(e), .f(f), .g(g));
 endmodule

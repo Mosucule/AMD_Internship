@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/ALU.v:37]
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/ALU.v:42]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/dec2_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec2_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/dec_err.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec_err
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/dec_sel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec_sel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/dig_dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_dec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/digit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/Completare_ALU_Digit/Completare_ALU_Digit.srcs/sources_1/new/mux12_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux12_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/ALU_digit_dec/digitDecoder.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Silviu/AMD_Internship/Completare_ALU_Digit/Completare_ALU_Digit.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
